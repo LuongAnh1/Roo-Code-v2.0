@@ -3,7 +3,7 @@
 ```text
 /FaMI_Manim_Project
 ├── .roo/
-│   └── rules-manim-video-producer/      # [HỆ ĐIỀU HÀNH] Nạp tự động vào Roo Code
+│   └── rules-manim-video-producer-v2-0/      # [HỆ ĐIỀU HÀNH] Nạp tự động vào Roo Code
 │       ├── master_runbook.md            # Quy trình điều phối các Pha (Phases)
 │       └── global_constraints.md        # Các lệnh "CẤM" và Tiêu chuẩn chung
 │
