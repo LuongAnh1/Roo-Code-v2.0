@@ -1,53 +1,101 @@
-# 📂 CẤU TRÚC THƯ MỤC: FAMI MANIM OS v2.0
+# 🗺️ SƠ ĐỒ LUỒNG LÀM VIỆC: AI MANIM VIDEO PRODUCER
+
+## 📊 Sơ đồ Khối (Workflow Diagram)
 
 ```text
-/FaMI_Manim_Project
-├── .roo/
-│   └── rules-manim-video-producer-v2-0/      # [HỆ ĐIỀU HÀNH] Nạp tự động vào Roo Code
-│       ├── master_runbook.md            # Quy trình điều phối các Pha (Phases)
-│       └── global_constraints.md        # Các lệnh "CẤM" và Tiêu chuẩn chung
-│
-├── intent/                            # [LỚP MỤC TIÊU]
-│   └── brand_identity.md                # Tầm nhìn kênh FaMI, Brand Voice, Persona
-│
-├── knowledge/                         # [LỚP TRI THỨC]
-│   ├── manim_api_cheat_sheet.md         # Tra cứu nhanh hàm Manim & LaTeX
-│   └── aesthetics_architecture.md       # Bản đồ vùng an toàn 9:16 (Layout Theory)
-│
-├── skills/                            # [LỚP KỸ NĂNG] Đóng gói thành từng Folder
-│   ├── skill_parse_script/              # Kỹ năng bóc tách kịch bản CSV
-│   │   ├── SKILL.md                     # Logic xử lý (Dòng lẻ: Thoại, Dòng chẵn: Hình)
-│   │   └── verification_checklist.md    # Kiểm tra map đúng 4 cảnh chưa?
-│   ├── skill_storyboard_design/         # Kỹ năng sáng tạo ẩn dụ hình ảnh
-│   │   ├── SKILL.md                     # Cách tư duy Visual Metaphors
-│   │   └── templates/                   # Các mẫu mô tả Storyboard chuẩn
-│   ├── skill_manim_coding/              # Kỹ năng viết mã nguồn (Trọng tâm)
-│   │   ├── SKILL.md                     # Quy tắc: Khóa trục Y, 80% duration, Subtitle
-│   │   ├── templates/                   # 4 Blueprints cho 4 Scene
-│   │   └── verification/                # Checklist chống tràn viền, chống lệch chữ
-│   └── skill_auto_debug/                # Kỹ năng tự sửa lỗi Terminal
-│       ├── SKILL.md                     # Cách đọc Traceback và sửa code
-│       └── reference_errors.md          # Thư viện các lỗi đã từng gặp
-│
-├── execution/                         # [LỚP THỰC THI] "Tay chân" của Agent
-│   ├── fami_lib.py                      # Thư viện core (Logo, Title, Gradient, Subtitle)
-│   └── assets/                          # Chứa Logo.png và các file .svg icon
-│
-├── evolution/                         # [LỚP TIẾN HÓA] Học hỏi sau mỗi Video
-│   ├── lessons_learned.md               # Ghi chép các "Gotchas" (Cú lừa) mới
-│   └── changelog_os.md                  # Lịch sử cập nhật hệ thống Skill
-│
-├── outputs/                             # Nơi lưu file .py và .mp4 cuối cùng
-└── scripts/                             # Nơi chứa file input (script.csv)
+=======================================================================
+           SƠ ĐỒ LUỒNG LÀM VIỆC: AI MANIM VIDEO PRODUCER
+=======================================================================
+
+   [ 🚀 BẮT ĐẦU DỰ ÁN ]
+            │
+            ▼
+ ┌──────────────────────────────────────┐<──────────────┐
+ │ 🟦 BƯỚC 1: TIẾP NHẬN DỮ LIỆU         │               │
+ │ 🤖 Đọc kịch bản script.csv           │               │
+ │ 🤖 Trích xuất Thoại & Hình ảnh       │               │
+ └──────────────────┬───────────────────┘               │
+                    │                                   │
+           { 🧍 BẠN DUYỆT KỊCH BẢN } ────────(Sai)──────┘
+                    │
+                 (Đồng ý)
+                    │
+   ╭────────────────▼───────────────────────────╮
+   │ 🔄 BẮT ĐẦU VÒNG LẶP: LÀM TỪNG SCENE (1->4) │<──────┐
+   ╰────────────────┬───────────────────────────╯       │
+                    │                                   │
+ ┌──────────────────▼───────────────────┐<────────┐     │
+ │ 🟨 BƯỚC 2: PHÁC THẢO NGHỆ THUẬT      │         │     │
+ │ 🤖 Đề xuất ý tưởng (Visual Metaphor) │         │     │
+ │ 🤖 Xác định Layout (Y-coordinates)   │         │     │
+ └──────────────────┬───────────────────┘         │     │
+                    │                             │     │
+           { 🧍 BẠN DUYỆT Ý TƯỞNG } ──────(Đổi ý)─┘     │
+                    │                                   │
+                 (Đồng ý)                               │
+                    │                                   │
+ ┌──────────────────▼───────────────────┐<────────┐     │
+ │ 🟩 BƯỚC 3: LẬP TRÌNH & KIỂM THỬ      │         │     │
+ │ 🤖 Viết Code (Dùng fami_lib)         │         │     │
+ │ ⚙️ Chạy Terminal: manim -pql         │         │     │
+ └──────────────────┬───────────────────┘         │     │
+                    │                             │     │
+             [ Lỗi Terminal? ]                    │     │
+                    ├──────────(CÓ LỖI)─────┐     │     │
+                    │                       │     │     │
+               (Thành công)       [ 🤖 TỰ ĐỌC LOG ]     │
+                    │             [ & TỰ SỬA CODE ]     │
+                    ▼                       │     │     │
+          [ 🎬 XUẤT VIDEO NHÁP ] <──────────┘     │     │
+                    │                             │     │
+           { 🧍 BẠN DUYỆT VIDEO } ─────(Sửa code)─┘     │
+                    │                                   │
+               (Chốt Scene)                             │
+                    │                                   │
+   ╭────────────────▼───────────────────╮               │
+   │      Đã xong cả 4 Scene chưa?      │               │
+   ╰────────┬───────────────────┬───────╯               │
+            │                   │                       │
+          (Chưa)              (Xong)                    │
+            │                   │                       │
+            └───────────────────┼───────────────────────┘
+                                │
+            ┌───────────────────┘
+            ▼
+ ┌──────────────────────────────────────┐
+ │ 🟥 BƯỚC 4: XUẤT BẢN HOÀN THIỆN       │
+ │ 🤖 Chạy 4 lệnh render nét căng       │
+ │    (-pqh 1080x1920)                  │
+ └──────────────────┬───────────────────┘
+                    │
+                    ▼
+         [ 🎉 HOÀN THÀNH DỰ ÁN ]
+
+
+-----------------------------------------------------------------------
+CHÚ THÍCH KÝ HIỆU:
+ 🤖 : Việc của AI Agent (Tự động làm, tự động nghĩ).
+ ⚙️ : Việc của Hệ thống (Render, báo lỗi Terminal).
+ 🧍 : Việc của CON NGƯỜI (Bạn chỉ cần duyệt tại 3 điểm chốt chặn này).
+-----------------------------------------------------------------------
 ```
 
-# 🔎 CHI TIẾT CÁC FILE QUAN TRỌNG THEO TƯ DUY SKILL-BASED
+# 👨‍💻 Vai trò của Người dùng (Human-in-the-loop)
 
-## 1. File Điều Phối: .roo/rules-manim-video-producer/master_runbook.md
-- File này chỉ dạy Agent "Khi nào thì rút Skill nào ra xài".
+Hệ thống được thiết kế để tự động hóa 90% công việc lập trình. 10% còn lại là quyết định của bạn. Bạn chỉ cần lên tiếng tại 3 điểm chốt chặn (Nút nét đứt trên sơ đồ):
 
-## 2. Cấu trúc một Folder Skill (Ví dụ: skill_manim_coding)
-- **SKILL.md**: Chứa "Algorithm" để Agent viết code (Quy tắc 80% thời gian, Quy tắc update_subtitle_dual).
-- **templates/**: Chứa đoạn mã mẫu (Snippet) để Agent copy-paste nhanh các khối with self.voiceover.
-- **verification/layout_checklist.md**: Ép Agent phải tự kiểm tra: "Mình đã dùng scale_to_fit_width(7.5) chưa? Chữ có đè logo không?" trước khi nó nộp bài cho bạn.
+## 📍 Chốt chặn 1 (Sau Bước 1): Duyệt Kịch bản
+- **Agent làm gì**: Đọc file CSV, ghép Lời thoại với Mô tả hình ảnh.
+- **Bạn làm gì**: Kiểm tra xem Agent có lấy nhầm dòng tiêu đề làm kịch bản không. Bấm OK để Agent bắt đầu nghĩ ý tưởng cho Phân cảnh 1.
 
+## 📍 Chốt chặn 2 (Sau Bước 2): Duyệt Ý tưởng (Storyboard)
+- **Agent làm gì**: Trình bày ý tưởng thay thế Text bằng Hình ảnh/Đồ thị, báo cáo các Icon lấy từ thư mục assets/.
+- **Bạn làm gì**: Nếu bạn thấy ý tưởng hay, gõ OK, code đi. Nếu bạn muốn đổi, gõ ví dụ: "Đừng vẽ hình tròn, hãy vẽ một cái bập bênh". Agent sẽ sửa kế hoạch trước khi code.
+
+## 📍 Chốt chặn 3 (Sau Bước 3): Nghiệm thu Video Nháp
+- **Agent làm gì**: Nó sẽ tự động đánh vật với Terminal. Nếu có lỗi Code, nó tự đọc log và tự sửa. Nó CHỈ GỌI BẠN khi video nháp chất lượng thấp (-pql) đã được render thành công.
+- **Bạn làm gì**: Mở file video nháp lên xem.
+    Nếu chữ bị lệch, gõ: "Chữ bị lệch, đẩy lên trên 1 chút".
+    Nếu thời gian bị chậm, gõ: "Hiệu ứng hiện ra nhanh hơn chút".
+    Nếu hoàn hảo, gõ: "Chốt. Chuyển sang làm Scene tiếp theo".
+*(Quá trình này lặp lại 4 lần cho 4 phân cảnh. Sau khi bạn chốt Scene 4, Agent sẽ tự động ghép và xuất bản video nét căng ở Bước 4).*
