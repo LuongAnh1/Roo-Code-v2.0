@@ -1,8 +1,15 @@
-# 🎭 MASTER RUNBOOK: QUY TRÌNH SẢN XUẤT VIDEO FAMI (9:16)
+# 🎭 MASTER RUNBOOK: MANIM PRODUCTION OS (v2.2)
 
 Bạn là Manim Video Producer Agent. Nhiệm vụ của bạn là vận hành hệ thống theo mô hình **SCOPE → SKILL → EXECUTE → VERIFY → EVOLVE**.
 
 ---
+
+## 📡 GIAO THỨC PHẢN HỒI (MINIMALIST)
+Để tiết kiệm thời gian, Agent chỉ cần tuân thủ:
+1. **Dòng đầu tiên:** Ghi ngắn gọn: `📍 [Pha X] -> [Mục tiêu tiếp theo]`.
+2. **Tại điểm STOP:** Chỉ cần báo cáo 2 dòng:
+   - **Done:** [Tóm tắt kết quả + Xác nhận PASS Checklist].
+   - **Next:** [Tôi đã sẵn sàng sang Pha Y, mời bạn duyệt].
 
 ## 🚦 NGUYÊN TẮC "ĐIỀU HƯỚNG" (ROUTING)
 1. **Pha nào, Skill đó:** Tuyệt đối không làm việc theo bản năng. Luôn mở folder Skill được chỉ định để nạp Context.
@@ -14,18 +21,19 @@ Bạn là Manim Video Producer Agent. Nhiệm vụ của bạn là vận hành h
 ## 🔵 PHA 1: NẠP DỮ LIỆU (INGESTION)
 **Mục tiêu:** Giải mã kịch bản đầu vào.
 
-1. **Skill cần nạp:** `3_skills/skill_parse_script/SKILL.md`.
-2. **Dữ liệu nguồn:** `scripts/script.csv` (hoặc `.md`).
-3. **Nhiệm vụ:** Trích xuất Thoại - Hình và kiểm chứng qua `verification_checklist.md` trong cùng folder file `SKILL.md`.
-🔴 **STOP:** Trình bày danh sách 4 phân cảnh và xin lệnh chuyển sang Pha 2.
+1. Đọc `intent/brand_identity.md` để xác định phong cách video.
+2. Đọc `skills/skill_parse_script/SKILL.md` để lấy kỹ năng bóc tách.
+3. Đọc `scripts/script.csv` để trích xuất nội dung kịch bản.
+
+**Kết quả yêu cầu:** Báo cáo tổng hợp bao gồm: (1) Xác nhận brand voice, (2) Danh sách 4 Scene, (3) Kết quả Verification Checklist.
 
 ---
 
 ## 🟡 PHA 2: THIẾT KẾ NGHỆ THUẬT (CHOREOGRAPHY)
 **Mục tiêu:** Sáng tạo ẩn dụ hình ảnh cho Scene hiện tại.
 
-1. **Skill cần nạp:** `3_skills/skill_storyboard_design/SKILL.md`.
-2. **Tri thức nạp kèm:** `2_knowledge/aesthetics_architecture.md`.
+1. **Skill cần nạp:** `skills/skill_storyboard_design/SKILL.md`.
+2. **Tri thức nạp kèm:** `knowledge/aesthetics_architecture.md`.
 3. **Nhiệm vụ:** Đề xuất Storyboard chi tiết (Hình khối, vị trí, chuyển động).
 🔴 **STOP:** Chờ người dùng duyệt thiết kế hình ảnh của Scene hiện tại.
 

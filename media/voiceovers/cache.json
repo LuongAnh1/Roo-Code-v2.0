@@ -1,0 +1,200 @@
+[
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean, ch\u00fang ta ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh v\u1edbi logo nh\u1ecf v\u00e0 ti\u00eau \u0111\u1ec1 cao.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean, ch\u00fang ta ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh v\u1edbi logo nh\u1ecf v\u00e0 ti\u00eau \u0111\u1ec1 cao.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-chung-ta-kiem-tra-phan-dinh-man-hinh-voi-870b1289.mp3",
+    "final_audio": "dau-tien-chung-ta-kiem-tra-phan-dinh-man-hinh-voi-870b1289.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng n\u1ed9i dung ch\u00ednh. B\u1ea1n c\u00f3 th\u1ec3 th\u1ea5y kh\u00f4ng gian hi\u1ec7n t\u1ea1i r\u1ea5t r\u1ed9ng.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng n\u1ed9i dung ch\u00ednh. B\u1ea1n c\u00f3 th\u1ec3 th\u1ea5y kh\u00f4ng gian hi\u1ec7n t\u1ea1i r\u1ea5t r\u1ed9ng.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-noi-dung-chinh-ban-co-the-thay-06d50ff1.mp3",
+    "final_audio": "tiep-theo-la-vung-noi-dung-chinh-ban-co-the-thay-06d50ff1.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3",
+    "final_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3",
+    "final_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3",
+    "final_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3"
+  },
+  {
+    "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+    "input_data": {
+      "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+      "service": "gtts"
+    },
+    "original_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3",
+    "final_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3",
+    "final_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3"
+  },
+  {
+    "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+    "input_data": {
+      "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+      "service": "gtts"
+    },
+    "original_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3",
+    "final_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3",
+    "final_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3"
+  },
+  {
+    "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+    "input_data": {
+      "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+      "service": "gtts"
+    },
+    "original_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3",
+    "final_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3",
+    "final_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3"
+  },
+  {
+    "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+    "input_data": {
+      "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+      "service": "gtts"
+    },
+    "original_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3",
+    "final_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3"
+  },
+  {
+    "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+    "input_data": {
+      "input_text": "\u0110\u1ea7u ti\u00ean l\u00e0 ki\u1ec3m tra ph\u1ea7n \u0111\u1ec9nh m\u00e0n h\u00ecnh.",
+      "service": "gtts"
+    },
+    "original_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3",
+    "final_audio": "dau-tien-la-kiem-tra-phan-dinh-man-hinh-552af74a.mp3"
+  },
+  {
+    "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+    "input_data": {
+      "input_text": "Ti\u1ebfp theo l\u00e0 v\u00f9ng trung t\u00e2m v\u00e0 v\u00f9ng d\u01b0\u1edbi.",
+      "service": "gtts"
+    },
+    "original_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3",
+    "final_audio": "tiep-theo-la-vung-trung-tam-va-vung-duoi-d8db60b4.mp3"
+  },
+  {
+    "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+    "input_data": {
+      "input_text": "Cu\u1ed1i c\u00f9ng l\u00e0 ph\u1ee5 \u0111\u1ec1 song ng\u1eef n\u1eb1m \u1edf v\u00f9ng an to\u00e0n.",
+      "service": "gtts"
+    },
+    "original_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3",
+    "final_audio": "cuoi-cung-la-phu-de-song-ngu-nam-o-vung-an-toan-4c324b97.mp3"
+  }
+]

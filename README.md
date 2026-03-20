@@ -7,14 +7,14 @@
 │       ├── master_runbook.md            # Quy trình điều phối các Pha (Phases)
 │       └── global_constraints.md        # Các lệnh "CẤM" và Tiêu chuẩn chung
 │
-├── 1_intent/                            # [LỚP MỤC TIÊU]
+├── intent/                            # [LỚP MỤC TIÊU]
 │   └── brand_identity.md                # Tầm nhìn kênh FaMI, Brand Voice, Persona
 │
-├── 2_knowledge/                         # [LỚP TRI THỨC]
+├── knowledge/                         # [LỚP TRI THỨC]
 │   ├── manim_api_cheat_sheet.md         # Tra cứu nhanh hàm Manim & LaTeX
 │   └── aesthetics_architecture.md       # Bản đồ vùng an toàn 9:16 (Layout Theory)
 │
-├── 3_skills/                            # [LỚP KỸ NĂNG] Đóng gói thành từng Folder
+├── skills/                            # [LỚP KỸ NĂNG] Đóng gói thành từng Folder
 │   ├── skill_parse_script/              # Kỹ năng bóc tách kịch bản CSV
 │   │   ├── SKILL.md                     # Logic xử lý (Dòng lẻ: Thoại, Dòng chẵn: Hình)
 │   │   └── verification_checklist.md    # Kiểm tra map đúng 4 cảnh chưa?
@@ -29,11 +29,11 @@
 │       ├── SKILL.md                     # Cách đọc Traceback và sửa code
 │       └── reference_errors.md          # Thư viện các lỗi đã từng gặp
 │
-├── 4_execution/                         # [LỚP THỰC THI] "Tay chân" của Agent
+├── execution/                         # [LỚP THỰC THI] "Tay chân" của Agent
 │   ├── fami_lib.py                      # Thư viện core (Logo, Title, Gradient, Subtitle)
 │   └── assets/                          # Chứa Logo.png và các file .svg icon
 │
-├── 5_evolution/                         # [LỚP TIẾN HÓA] Học hỏi sau mỗi Video
+├── evolution/                         # [LỚP TIẾN HÓA] Học hỏi sau mỗi Video
 │   ├── lessons_learned.md               # Ghi chép các "Gotchas" (Cú lừa) mới
 │   └── changelog_os.md                  # Lịch sử cập nhật hệ thống Skill
 │
