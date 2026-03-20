@@ -42,18 +42,18 @@ Bạn là Manim Video Producer Agent. Nhiệm vụ của bạn là vận hành h
 ## 🟢 PHA 3: LẬP TRÌNH & KIỂM CHỨNG (EXECUTION)
 **Mục tiêu:** Render video nháp (-pql) cho Scene đã duyệt.
 
-1. **Skill cần nạp:** `3_skills/skill_manim_coding/SKILL.md`.
-2. **Công cụ thực thi:** `4_execution/fami_lib.py`.
+1. **Skill cần nạp:** `skills/skill_manim_coding/SKILL.md`.
+2. **Công cụ thực thi:** `execution/fami_lib.py`.
 3. **Nhiệm vụ:**
     - Viết code -> Chạy `verification/layout_checklist.md`.
-    - Nếu Terminal báo lỗi: Tự động nạp `3_skills/skill_auto_debug/SKILL.md` để sửa code.
+    - Nếu Terminal báo lỗi: Tự động nạp `skills/skill_auto_debug/SKILL.md` để sửa code.
 🔴 **STOP:** Gửi video nháp cho người dùng nghiệm thu.
 
 ---
 
 ## 🟣 PHA 4: TIẾN HÓA & HOÀN THIỆN (EVOLVE)
 **Mục tiêu:** Đóng gói dự án.
-1. **Lưu bài học:** Cập nhật lỗi/gotchas mới vào `5_evolution/lessons_learned.md`.
+1. **Lưu bài học:** Cập nhật lỗi/gotchas mới vào `evolution/lessons_learned.md`.
 2. **Vòng lặp:** Quay lại Pha 2 để làm Scene tiếp theo cho đến khi hoàn thành cả 4 Scene.
 3. **Render cuối:** Chạy lệnh chất lượng cao (`-pqh`) cho toàn bộ các Scene đã chốt.
 🏁 **KẾT THÚC DỰ ÁN.**
