@@ -1,0 +1,321 @@
+{
+  "video_id": "video_spam_bayes_summary",
+  "total_estimated_time": 45.0,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "section": "Hook",
+      "voiceover": "Làm sao để phân loại Email Spam?",
+      "subtitle": "Làm sao để phân loại Email Spam?",
+      "word_count": 7,
+      "estimated_duration_seconds": 2.5,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass - Ở giữa, tránh Dead Zone",
+        "description": "Câu hỏi lớn ở giữa màn hình. Biểu tượng Email với mũi tên 2 hướng (Spam / Normal).",
+        "manim_animation_in": "Write() text, FadeIn() icon",
+        "manim_animation_out": "FadeOut()"
+      }
+    },
+    {
+      "scene_id": 2,
+      "section": "Main Body",
+      "voiceover": "Qua câu chuyện này, ta thấy rằng",
+      "subtitle": "Qua câu chuyện này, ta thấy rằng",
+      "word_count": 7,
+      "estimated_duration_seconds": 2.5,
+      "visual_plan": {
+        "layout_position": "UP",
+        "safe_zone_check": "Pass - Dưới Y=4.0",
+        "description": "Tiêu đề phụ xuất hiện.",
+        "manim_animation_in": "FadeIn()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 3,
+      "section": "Main Body",
+      "voiceover": "Định lý Bayes không chỉ là công thức",
+      "subtitle": "Định lý Bayes không chỉ là công thức",
+      "word_count": 8,
+      "estimated_duration_seconds": 2.8,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Hiện công thức Bayes (làm mờ dần phía sau).",
+        "manim_animation_in": "Write()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 4,
+      "section": "Main Body",
+      "voiceover": "mà còn được ứng dụng trực tiếp",
+      "subtitle": "mà còn được ứng dụng trực tiếp",
+      "word_count": 7,
+      "estimated_duration_seconds": 2.5,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Hiện icon đời sống / thực tế.",
+        "manim_animation_in": "GrowFromCenter()",
+        "manim_animation_out": "FadeOut() tất cả"
+      }
+    },
+    {
+      "scene_id": 5,
+      "section": "Main Body",
+      "voiceover": "Về ưu điểm, đây không phải thuật toán tĩnh,",
+      "subtitle": "Về ưu điểm, đây không phải thuật toán tĩnh,",
+      "word_count": 9,
+      "estimated_duration_seconds": 3.0,
+      "visual_plan": {
+        "layout_position": "UP",
+        "safe_zone_check": "Pass",
+        "description": "Tiêu đề 'Ưu điểm' hiện lên.",
+        "manim_animation_in": "Write()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 6,
+      "section": "Main Body",
+      "voiceover": "nó có khả năng học từ dữ liệu mới,",
+      "subtitle": "nó có khả năng học từ dữ liệu mới,",
+      "word_count": 9,
+      "estimated_duration_seconds": 3.0,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Icon robot đang đọc sách / học.",
+        "manim_animation_in": "FadeIn()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 7,
+      "section": "Main Body",
+      "voiceover": "giảm thiểu đánh nhầm email quan trọng thành Spam",
+      "subtitle": "giảm thiểu đánh nhầm email quan trọng thành Spam",
+      "word_count": 9,
+      "estimated_duration_seconds": 3.0,
+      "visual_plan": {
+        "layout_position": "DOWN",
+        "safe_zone_check": "Pass - Trên Y=-3.5",
+        "description": "Biểu đồ cột lỗi giảm dần.",
+        "manim_animation_in": "Create()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 8,
+      "section": "Main Body",
+      "voiceover": "cùng tốc độ tính toán nhanh.",
+      "subtitle": "cùng tốc độ tính toán nhanh.",
+      "word_count": 6,
+      "estimated_duration_seconds": 2.0,
+      "visual_plan": {
+        "layout_position": "DOWN",
+        "safe_zone_check": "Pass",
+        "description": "Biểu tượng đồng hồ đếm ngược / tốc độ.",
+        "manim_animation_in": "GrowFromCenter()",
+        "manim_animation_out": "FadeOut() toàn bộ"
+      }
+    },
+    {
+      "scene_id": 9,
+      "section": "Main Body",
+      "voiceover": "Về hạn chế thì Spam ngày nay ngày càng tinh vi.",
+      "subtitle": "Về hạn chế thì Spam ngày nay ngày càng tinh vi.",
+      "word_count": 11,
+      "estimated_duration_seconds": 3.6,
+      "visual_plan": {
+        "layout_position": "UP",
+        "safe_zone_check": "Pass",
+        "description": "Chữ 'Hạn chế' và biểu tượng virus / hacker.",
+        "manim_animation_in": "Write()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 10,
+      "section": "Main Body",
+      "voiceover": "Thay vì viết free, kẻ gửi có thể viết fr33;",
+      "subtitle": "Thay vì viết free, kẻ gửi có thể viết fr33;",
+      "word_count": 10,
+      "estimated_duration_seconds": 3.3,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Chữ 'free' biến đổi thành 'fr33'.",
+        "manim_animation_in": "Write(), Transform()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 11,
+      "section": "Main Body",
+      "voiceover": "f.r.e.e; fr€€ làm hệ thống dựa trên từ khóa",
+      "subtitle": "f.r.e.e; fr€€ làm hệ thống dựa trên từ khóa",
+      "word_count": 9,
+      "estimated_duration_seconds": 3.0,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Các biến thể khác xuất hiện xung quanh.",
+        "manim_animation_in": "FadeIn()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 12,
+      "section": "Main Body",
+      "voiceover": "khó nhận diện.",
+      "subtitle": "khó nhận diện.",
+      "word_count": 3,
+      "estimated_duration_seconds": 2.0,
+      "visual_plan": {
+        "layout_position": "DOWN",
+        "safe_zone_check": "Pass - Trên Y=-3.5",
+        "description": "Dấu X màu đỏ hoặc kính lúp bị vỡ.",
+        "manim_animation_in": "GrowFromCenter()",
+        "manim_animation_out": "FadeOut() toàn bộ"
+      }
+    },
+    {
+      "scene_id": 13,
+      "section": "Main Body",
+      "voiceover": "Từ phương pháp của An, nếu muốn hiểu sâu hơn",
+      "subtitle": "Từ phương pháp của An, nếu muốn hiểu sâu hơn",
+      "word_count": 10,
+      "estimated_duration_seconds": 3.3,
+      "visual_plan": {
+        "layout_position": "UP",
+        "safe_zone_check": "Pass",
+        "description": "Ảnh nhân vật An nhỏ ở góc trên.",
+        "manim_animation_in": "FadeIn()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 14,
+      "section": "Main Body",
+      "voiceover": "về cách các hệ thống lọc Spam hoạt động trong thực tế,",
+      "subtitle": "về cách các hệ thống lọc Spam hoạt động trong thực tế,",
+      "word_count": 12,
+      "estimated_duration_seconds": 4.0,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Sơ đồ luồng (Flowchart) lọc email đơn giản.",
+        "manim_animation_in": "Create()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 15,
+      "section": "Main Body",
+      "voiceover": "bạn có thể tìm kiếm cụm từ khóa",
+      "subtitle": "bạn có thể tìm kiếm cụm từ khóa",
+      "word_count": 8,
+      "estimated_duration_seconds": 2.6,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Thanh tìm kiếm Google hiện ra.",
+        "manim_animation_in": "GrowFromCenter()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 16,
+      "section": "Main Body",
+      "voiceover": "Naive Bayes Classifier",
+      "subtitle": "Naive Bayes Classifier",
+      "word_count": 3,
+      "estimated_duration_seconds": 2.0,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Dòng chữ được gõ vào thanh tìm kiếm.",
+        "manim_animation_in": "Write()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 17,
+      "section": "Main Body",
+      "voiceover": "là hệ thống lọc Spam lớn của Google",
+      "subtitle": "là hệ thống lọc Spam lớn của Google",
+      "word_count": 8,
+      "estimated_duration_seconds": 2.6,
+      "visual_plan": {
+        "layout_position": "DOWN",
+        "safe_zone_check": "Pass",
+        "description": "Logo Google nhỏ xuất hiện bên dưới.",
+        "manim_animation_in": "FadeIn()",
+        "manim_animation_out": "FadeOut() toàn bộ"
+      }
+    },
+    {
+      "scene_id": 18,
+      "section": "Call to Action",
+      "voiceover": "Câu hỏi cuối video dành cho bạn đó là",
+      "subtitle": "Câu hỏi cuối video dành cho bạn đó là",
+      "word_count": 9,
+      "estimated_duration_seconds": 3.0,
+      "visual_plan": {
+        "layout_position": "UP",
+        "safe_zone_check": "Pass",
+        "description": "Dấu hỏi chấm lớn ở giữa, tiêu đề câu hỏi ở trên.",
+        "manim_animation_in": "Write(), GrowFromCenter()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 19,
+      "section": "Call to Action",
+      "voiceover": "phải xử lý như nào nếu kẻ Spam cố tình",
+      "subtitle": "phải xử lý như nào nếu kẻ Spam cố tình",
+      "word_count": 10,
+      "estimated_duration_seconds": 3.3,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Biểu tượng kẻ xấu (Spammer) thả các từ khóa.",
+        "manim_animation_in": "FadeIn()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 20,
+      "section": "Call to Action",
+      "voiceover": "viết free thành fr€€?",
+      "subtitle": "viết free thành fr€€?",
+      "word_count": 4,
+      "estimated_duration_seconds": 2.0,
+      "visual_plan": {
+        "layout_position": "CENTER",
+        "safe_zone_check": "Pass",
+        "description": "Chữ 'free' lại biến thành 'fr€€' to đùng ở giữa.",
+        "manim_animation_in": "Transform()",
+        "manim_animation_out": "None"
+      }
+    },
+    {
+      "scene_id": 21,
+      "section": "Call to Action",
+      "voiceover": "Nếu bạn biết câu trả lời, hãy comment phía dưới.",
+      "subtitle": "Nếu bạn biết câu trả lời, hãy comment phía dưới.",
+      "word_count": 10,
+      "estimated_duration_seconds": 3.3,
+      "visual_plan": {
+        "layout_position": "DOWN",
+        "safe_zone_check": "Pass",
+        "description": "Mũi tên chỉ xuống (khu vực comment).",
+        "manim_animation_in": "GrowFromCenter(), Vibrate()",
+        "manim_animation_out": "FadeOut() kết thúc video"
+      }
+    }
+  ]
+}

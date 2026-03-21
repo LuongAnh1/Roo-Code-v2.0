@@ -24,3 +24,30 @@
 ├── skills/                              # Chứa các thư viện, hàm/lớp tiện ích dùng chung (helper functions)
 │   └── fami_lib.py                      # Thư viện tiện ích tùy chỉnh (chứa các hàm tạo layout, màu sắc, icon...)
 └── README.md                            # Tài liệu mô tả chung về dự án
+
+Cấu trúc mới đề xuất
+├── .roo/
+│   ├── rules/
+│   │   └── working-principles.md        # LUẬT THÉP: Bắt buộc tuân thủ 3 Giai đoạn, phải có file Plan, phải tự chạy thử manim.
+│   └── rules-manim-video-producer/      # (Giữ nguyên như của bạn, nhưng phân rã manim-standards ra)
+│       ├── phase1-planning.md           # Hướng dẫn tạo current_plan.md
+│       ├── phase2-coding.md             # Hướng dẫn gọi các Skill để code
+│       └── phase3-qa-render.md          # Hướng dẫn đọc log lỗi Manim
+│
+├── memory/                              # [MỚI] Bộ nhớ dự án
+│   ├── current_plan.md                  # File kịch bản đã phân rã (AI viết ra ở Phase 1)
+│   ├── active-tasks.json                # Trạng thái tiến độ
+│   └── lessons-learned/                 # Những lỗi Manim AI từng mắc phải
+│
+├── skills/                              # [ĐÃ NÂNG CẤP] Biến thành các Folder trọn gói
+│   ├── __init__.py                      
+│   ├── text_generation_skill/           # Skill xử lý chữ
+│   │   ├── SKILL.md                     # Hướng dẫn dùng skill này
+│   │   └── text_helpers.py              # Code Python chứa các hàm text
+│   ├── layout_calculation_skill/        # Skill chia lưới 9:16
+│   └── audio_sync_skill/                # Skill khớp giọng nói
+│
+├── media/
+├── scripts/
+└── README.md
+
