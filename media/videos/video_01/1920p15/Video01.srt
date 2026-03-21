@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:02,852
+Làm sao để phân loại Email Spam?
+
+2
+00:00:03,933 --> 00:00:06,449
+Qua câu chuyện này, ta thấy rằng
+
+3
+00:00:06,533 --> 00:00:08,977
+Định lý Bayes không chỉ là công thức
+
+4
+00:00:09,033 --> 00:00:12,173
+mà còn được ứng dụng trực tiếp trong đời sống.
+
+5
+00:00:13,266 --> 00:00:16,550
+Về ưu điểm, đây không phải thuật toán tĩnh,
+
+6
+00:00:16,600 --> 00:00:19,332
+nó có khả năng học từ dữ liệu mới,
+
+7
+00:00:19,400 --> 00:00:22,948
+giảm thiểu đánh nhầm email quan trọng thành Spam
+
+8
+00:00:23,000 --> 00:00:25,180
+cùng tốc độ tính toán nhanh.
+
+9
+00:00:26,266 --> 00:00:29,862
+Về hạn chế thì Spam ngày nay ngày càng tinh vi.
+
+10
+00:00:29,933 --> 00:00:34,945
+Thay vì viết free, kẻ gửi có thể viết fr33;
+
+11
+00:00:35,000 --> 00:00:42,196
+f.r.e.e; fr€€ làm hệ thống dựa trên từ khóa
+
+12
+00:00:42,266 --> 00:00:43,414
+khó nhận diện.
+
+13
+00:00:44,466 --> 00:00:47,966
+Từ phương pháp của An, nếu muốn hiểu sâu hơn
+
+14
+00:00:48,000 --> 00:00:52,172
+về cách các hệ thống lọc Spam hoạt động trong thực tế,
+
+15
+00:00:52,266 --> 00:00:55,070
+bạn có thể tìm kiếm cụm từ khóa
+
+16
+00:00:55,133 --> 00:00:57,265
+Naive Bayes Classifier
+
+17
+00:00:57,333 --> 00:01:00,281
+là hệ thống lọc Spam lớn của Google
+
+18
+00:01:01,333 --> 00:01:04,425
+Câu hỏi cuối video dành cho bạn đó là
+
+19
+00:01:04,466 --> 00:01:07,606
+phải xử lý như nào nếu kẻ Spam cố tình
+
+20
+00:01:07,666 --> 00:01:10,590
+viết free thành fr€€?
+
+21
+00:01:10,666 --> 00:01:14,430
+Nếu bạn biết câu trả lời, hãy comment phía dưới.
+

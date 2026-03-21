@@ -10,7 +10,7 @@ translator = Translator()
 # ==========================================================
 # 1. HỆ TỌA ĐỘ KHÓA CỨNG (Đã nới rộng không gian nội dung)
 # ==========================================================
-POS_TITLE = UP * 5.8          # Đẩy cao hơn (từ 4.2 -> 5.8)
+POS_TITLE = UP * 5.5          # Đẩy cao hơn (từ 4.2 -> 5.8)
 POS_TOP_FOCUS = UP * 3.2      # Nới rộng vùng trên
 POS_CENTER = UP * 0.2         # Tâm điểm chính
 POS_BOTTOM_FOCUS = DOWN * 2.5 # Hạ thấp vùng dưới
